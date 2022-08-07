@@ -15,7 +15,7 @@ async function fetchJoke() {
         console.log('Chuck Norris grapje: ' + result.data.value);
         const jokeOne = document.getElementById('chuck-norris-joke');
         jokeOne.innerHTML = `Chuck Norris joke: ${result.data.value}`;
-    } catch(e) {
+    } catch (e) {
         console.error(e);
     }
 }
